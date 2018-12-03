@@ -453,7 +453,7 @@ ol.type li a:hover {
 	justify-content: space-between;
 }
 
-#bp {
+#bp, #fruitFrenzy {
 	height: 400px;
 	width: 500px;
 }
