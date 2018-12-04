@@ -546,12 +546,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding: 0;
 	margin: 0;
 }
-/* Testimonials Section */
-#testimonials {
+/* education Section */
+#education {
 	padding: 100px 0;
-	background: #F6F6F6;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
+	background: rgb(107,77,168); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
 }
-#testimonials blockquote {
+
+#education h2 {
+	color: #fff;
+}
+
+#education blockquote {
 	position: relative;
 	margin-top: 20px;
 	border: 0;
@@ -559,12 +569,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	background: #fff;
 	padding: 30px 20px;
 }
-#testimonials i {
+#education i {
 	font-size: 24px;
 	color: #eee;
 	margin-bottom: 14px;
 }
-#testimonials .clients-name {
+
+#education hr {
+	background: rgba(255,255,255,0.3);
+}
+
+#education .clients-name {
 	display: inline-block;
 	border-top: 1px solid #eee;
 	padding-top: 20px;
