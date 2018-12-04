@@ -122,6 +122,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	margin: 15px;
 }
 
+#icon-list > li > img {
+	width: 80px;
+	height: 80px;
+}
+
 #nyu-icon, #loreal-icon, #mikes-icon {
 	height: 75px;
 	width: 75px;
@@ -335,7 +340,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #portfolio {
 	padding: 100px 0;
 	background: #f6f6f6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
+#portfolio > a {
+	width: 150px;
+	margin-top: 50px;
+}
+
+#portfolio-button {
+	margin-top: 50px;
+}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
