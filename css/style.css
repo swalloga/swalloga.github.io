@@ -96,7 +96,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	justify-content: center;
 	align-items: center;
 }
-
+#about-me-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
 #resume {
 	height: 1200px;
 	padding: 100px 0;
@@ -519,7 +524,7 @@ ol.type li a:hover {
 	font-weight: bold;
 	padding: 10px;
 	margin: 0 20px;
-	width: 20%;
+	width: 120px;
 	border: 1px solid black;
 }
 
