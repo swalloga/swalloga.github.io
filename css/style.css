@@ -88,6 +88,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	border: 0;
 }
 
+#greeting-intro-text {
+	text-transform: none;
+}
 #about-me-photo {
 	display: flex;
 	justify-content: center;
