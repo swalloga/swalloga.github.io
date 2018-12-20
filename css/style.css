@@ -623,6 +623,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding-top: 20px;
 	margin-top: 10px;
 }
+
+#education-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#education-one, #education-two {
+	width: 375px;
+}
 /* Contact Section */
 #contact {
 	color: #fff;
